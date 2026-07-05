@@ -43,4 +43,4 @@ st.markdown("---")
 
 # Enlace obligatorio a GitHub usando el componente nativo o markdown
 st.markdown("### 🔗 Repositorio del Proyecto")
-st.link_button("Ver Código Fuente en GitHub", "https://github.com/SantiagoVeron-HLW/PT_Mineria_De_Datos_1")
+st.link_button("Ver Código Fuente en GitHub", "https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/")
