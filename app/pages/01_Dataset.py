@@ -70,4 +70,4 @@ st.markdown(
 
 # Pie de página con enlace obligatorio al repositorio
 st.markdown("---")
-st.caption("🔗 [Volver al Repositorio de GitHub](https://github.com/TU_USUARIO/PI_Mineria_Datos_1)")
+st.caption("🔗 [Volver al Repositorio de GitHub](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/tree/main")
