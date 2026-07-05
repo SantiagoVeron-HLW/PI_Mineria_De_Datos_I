@@ -73,7 +73,7 @@ Exportación de las nuevas coordenadas bidimensionales de los usuarios.
 
 # Visualización interactiva 
 
-La aplicación web streamlit cloud se organiza en las siguientes pantallas navegables: 
+La aplicación [web streamlit](https://yzbu2kwpecop22hhwf4nd7.streamlit.app/) cloud se organiza en las siguientes pantallas navegables: 
 
 Home: Presentación del equipo, contexto del pipeline y enlace a Github. 
 Dataset: Reporte de calidad del proceso y logs de las transformaciones. 
