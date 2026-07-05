@@ -5,7 +5,7 @@ Trabajo realizado por Iris Macarena y Satiago Veron de Sumampa
 # Información General 
  
 Este trabajo práctico fue realizado para la materia “Minería de Datos I”, Turno Mañana, de la carrera del Instituto Tecnológico de Santiago del Estero (ITSE), correspondiente a la entrega de julio 2026. El proyecto cuenta con un despliegue operativo en el siguiente enlace público 
-El trabajo consiste en el desarrollo integral de un pipeline de Ciencia de Datos aplicado a la auditoría de usuarios de una plataforma de streaming. A partir de un conjunto de datos [crudos](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/blob/main/data/raw/streaming_users_dirty.json) que presenta inconsistencias, nulos y duplicados, el proyecto automatiza las etapas de inspección, limpieza estadística, análisis exploratorio y reducción dimensional mediante PCA, para eliminar redundancias. Todo este proceso técnico se expone de manera interactiva a través de una interfaz web para facilitar la visualización de los hallazgos y la toma de decisiones. 
+El trabajo consiste en el desarrollo integral de un pipeline de Ciencia de Datos aplicado a la auditoría de usuarios de una plataforma de streaming. A partir de un conjunto de datos crudos que presenta inconsistencias, nulos y duplicados, el proyecto automatiza las etapas de inspección, limpieza estadística, análisis exploratorio y reducción dimensional mediante PCA, para eliminar redundancias. Todo este proceso técnico se expone de manera interactiva a través de una interfaz web para facilitar la visualización de los hallazgos y la toma de decisiones. 
 
 
 # Objetivos 
@@ -14,7 +14,38 @@ El objetivo principal de este trabajo es diseñar y desplegar un pipeline de pro
 
 # Dataset 
 
-El proyecto procesa el archivo ‘streaming_users.json’, el cual contiene métricas de uso demográficas, identificadoras, transacciones y planes de subscripción. Una vez procesado, el dataset extraído recibe el nombre de ‘streaming_users_clean.csv’, almacenado en Data/processed. 
+El proyecto procesa el archivo [‘streaming_users.json’](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/blob/main/data/raw/), el cual contiene métricas de uso demográficas, identificadoras, transacciones y planes de subscripción. Una vez procesado, el dataset extraído recibe el nombre de [‘streaming_users_clean.csv’](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/blob/main/data/processed), almacenado en Data/processed. 
+
+# Estructura de Repositorio
+PI_Mineria_Datos_1/ 
+      │ 
+      ├── README.md 
+      ├── requirements.txt 
+      │ 
+      ├── [data/](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/tree/main/data) 
+      │ ├── raw/ 
+      │ └── processed/ 
+      │ 
+      ├── [notebooks/](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/tree/main/notebooks)
+      │ ├── 01_inspeccion_inicial.ipynb 
+      │ ├── 02_calidad_y_limpieza.ipynb 
+      │ ├── 03_eda.ipynb  
+      │ ├── 04_pca.ipynb 
+      │ └── 05_conclusiones.ipynb 
+      │ 
+      ├── [app/](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/tree/main/app) 
+      │ ├── Home.py 
+      │ └── pages/ 
+      │     ├── 01_Dataset.py 
+      │     ├── 02_EDA.py 
+      │     ├── 03_PCA.py 
+      │     └── 04_Conclusiones.py  
+      │
+      ├── [reports/](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/tree/main/reports)
+      │ └── informe_final.pdf 
+      │
+      └── [logs/](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/tree/main/logs)
+        └── pipeline_log.csv
 
 # Preparación y calidad de datos: 
 
