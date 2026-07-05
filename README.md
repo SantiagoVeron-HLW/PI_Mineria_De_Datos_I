@@ -17,7 +17,7 @@ El objetivo principal de este trabajo es diseñar y desplegar un pipeline de pro
 El proyecto procesa el archivo [‘streaming_users.json’](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/blob/main/data/raw/), el cual contiene métricas de uso demográficas, identificadoras, transacciones y planes de subscripción. Una vez procesado, el dataset extraído recibe el nombre de [‘streaming_users_clean.csv’](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/blob/main/data/processed), almacenado en Data/processed. 
 
 # Estructura de Repositorio
-'''PI_Mineria_Datos_1/ 
+PI_Mineria_Datos_1/ 
       │ 
       ├── README.md 
       ├── requirements.txt 
@@ -45,7 +45,7 @@ El proyecto procesa el archivo [‘streaming_users.json’](https://github.com/S
       │ └── [informe_final.pdf](https://github.com/SantiagoBusta-dev/PI_Mineria_Datos_1/blob/main/reports/informe_final.pdf)
       │
       └── [logs/](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/tree/main/logs)
-        └── pipeline_log.csv'''
+        └── pipeline_log.csv
 
 # Preparación y calidad de datos: 
 
