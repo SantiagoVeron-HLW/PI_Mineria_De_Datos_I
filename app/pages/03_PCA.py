@@ -131,6 +131,5 @@ try:
 except FileNotFoundError:
     st.error("❌ No se encontró el archivo `datos_procesados.csv` en la carpeta `data/processed/`.")
 
-# Enlace al repositorio obligatorio en el pie de página
-st.markdown("---")
-st.caption("🔗 [Volver al Repositorio de GitHub](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/tree/main)
+st.markdown("### 🔗 Repositorio del Proyecto")
+st.link_button("Ver Código Fuente en GitHub", "https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/")
