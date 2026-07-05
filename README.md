@@ -1,5 +1,5 @@
 # PT_Mineria_De_Datos_1
-Trabajo realizado por Iris Macarena y Satiago Veron de Sumampa
+Trabajo realizado por Iris Pineda Macarena y Satiago Veron de Sumampa
  Proyecto Integrador: Minería de Datos I 
 
 # Información General 
