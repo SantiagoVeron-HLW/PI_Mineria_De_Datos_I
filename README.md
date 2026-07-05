@@ -27,22 +27,22 @@ PI_Mineria_Datos_1/
       │ └── processed/ 
       │ 
       ├── [notebooks/](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/tree/main/notebooks)
-      │ ├── 01_inspeccion_inicial.ipynb 
-      │ ├── 02_calidad_y_limpieza.ipynb 
-      │ ├── 03_eda.ipynb  
-      │ ├── 04_pca.ipynb 
+      │ ├── [01_inspeccion_inicial.ipynb](https://github.com/SantiagoBusta-dev/PI_Mineria_Datos_1/blob/main/notebooks/01_inspeccion_inicial.ipynb)
+      │ ├── [02_calidad_y_limpieza.ipynb](https://github.com/SantiagoBusta-dev/PI_Mineria_Datos_1/blob/main/notebooks/02_calidad_y_limpieza.ipynb)
+      │ ├── [03_eda.ipynb](https://github.com/SantiagoBusta-dev/PI_Mineria_Datos_1/blob/main/notebooks/03_eda.ipynb) 
+      │ ├── [04_pca.ipynb](https://github.com/SantiagoBusta-dev/PI_Mineria_Datos_1/blob/main/notebooks/04_pca.ipynb)
       │ └── 05_conclusiones.ipynb 
       │ 
       ├── [app/](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/tree/main/app) 
       │ ├── Home.py 
       │ └── pages/ 
       │     ├── 01_Dataset.py 
-      │     ├── 02_EDA.py 
-      │     ├── 03_PCA.py 
+      │     ├── [02_EDA.py](https://github.com/SantiagoBusta-dev/PI_Mineria_Datos_1/blob/main/app/pages/02_EDA.py)
+      │     ├── [03_PCA.py](https://github.com/SantiagoBusta-dev/PI_Mineria_Datos_1/blob/main/app/pages/03_PCA.py) 
       │     └── 04_Conclusiones.py  
       │
       ├── [reports/](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/tree/main/reports)
-      │ └── informe_final.pdf 
+      │ └── [informe_final.pdf](https://github.com/SantiagoBusta-dev/PI_Mineria_Datos_1/blob/main/reports/informe_final.pdf)
       │
       └── [logs/](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/tree/main/logs)
         └── pipeline_log.csv
