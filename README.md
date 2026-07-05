@@ -5,7 +5,8 @@ Trabajo realizado por Iris Macarena y Satiago Veron de Sumampa
 # Información General 
  
 Este trabajo práctico fue realizado para la materia “Minería de Datos I”, Turno Mañana, de la carrera del Instituto Tecnológico de Santiago del Estero (ITSE), correspondiente a la entrega de julio 2026. El proyecto cuenta con un despliegue operativo en el siguiente enlace público 
-El trabajo consiste en el desarrollo integral de un pipeline de Ciencia de Datos aplicado a la auditoría de usuarios de una plataforma de streaming. A partir de un conjunto de datos crudos que presenta inconsistencias, nulos y duplicados, el proyecto automatiza las etapas de inspección, limpieza estadística, análisis exploratorio y reducción dimensional mediante PCA, para eliminar redundancias. Todo este proceso técnico se expone de manera interactiva a través de una interfaz web para facilitar la visualización de los hallazgos y la toma de decisiones. 
+El trabajo consiste en el desarrollo integral de un pipeline de Ciencia de Datos aplicado a la auditoría de usuarios de una plataforma de streaming. A partir de un conjunto de datos [crudos](https://github.com/SantiagoVeron-HLW/PI_Mineria_De_Datos_I/blob/main/data/raw/streaming_users_dirty.json) que presenta inconsistencias, nulos y duplicados, el proyecto automatiza las etapas de inspección, limpieza estadística, análisis exploratorio y reducción dimensional mediante PCA, para eliminar redundancias. Todo este proceso técnico se expone de manera interactiva a través de una interfaz web para facilitar la visualización de los hallazgos y la toma de decisiones. 
+
 
 # Objetivos 
 
